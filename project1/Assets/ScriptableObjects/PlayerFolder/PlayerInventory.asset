@@ -15,4 +15,4 @@ MonoBehaviour:
   currentItem: {fileID: 0}
   items:
   - {fileID: 11400000, guid: f7a6c4170db4ae04baef8c95dc08c6bc, type: 2}
-  numberOfKeys: 3
+  numberOfKeys: 1

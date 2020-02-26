@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C3E81AB2-F8C9-3D5B-B7E8-A4E6C0B8F939}</ProjectGuid>
+    <ProjectGuid>{AD7B4F14-B5D4-3644-6D60-F0BAE94BCEB3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.2D.Tilemap.Extras.Editor</AssemblyName>
@@ -80,19 +80,19 @@
     <Compile Include="Assets\2d-extras-master\Editor\Tiles\RuleTile\RuleTileEditor.cs" />
     <None Include="Assets\2d-extras-master\Editor\Tiles\RuleTile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,7 +284,7 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -643,7 +643,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{CA48C651-4170-716B-7E06-E0C7F403D46B}</Project>
+      <Project>{DF792A7B-E146-0142-E474-7E3048536FF7}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
   </ItemGroup>

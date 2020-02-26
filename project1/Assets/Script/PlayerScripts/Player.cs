@@ -24,6 +24,8 @@ public class Player : MonoBehaviour
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
     public Signals playerHits;
+    public GameObject projectile;
+    public Item bow;
 
     // Start is called before the first frame update
     void Start()
@@ -50,7 +52,15 @@ public class Player : MonoBehaviour
         if (Input.GetButtonDown("Attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
-        }else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+        }
+        if (Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        {
+            if (playerInventory.CheckForItem(bow))
+            {
+                StartCoroutine(SecondAttackCo());
+            }
+        }
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             updateMovement();
         }
@@ -70,6 +80,33 @@ public class Player : MonoBehaviour
         {
             currentState = PlayerState.walk;
         }
+    }
+
+    private IEnumerator SecondAttackCo()
+    {
+        //animator.SetBool("attack", true);
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeArrow();
+        animator.SetBool("attack", false);
+        yield return new WaitForSeconds(0.5f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    private void MakeArrow()
+    {
+        Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+        arrow.Setup(temp, ChooseArrowDirection());
+    }
+
+    Vector3 ChooseArrowDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX"))*Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
     }
 
     public void RaiseItem()

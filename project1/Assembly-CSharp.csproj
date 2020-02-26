@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{677BF498-C4AB-589D-3C6B-29BD9F7E6F5E}</ProjectGuid>
+    <ProjectGuid>{E66FED68-071E-F0AC-3037-51659F892569}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,8 +67,11 @@
     <Compile Include="Assets\Script\EnemyScripts\Enemy.cs" />
     <Compile Include="Assets\Script\EnemyScripts\logScript.cs" />
     <Compile Include="Assets\Script\EnemyScripts\patrolLogs.cs" />
+    <Compile Include="Assets\Script\Game\GameSaveManager.cs" />
+    <Compile Include="Assets\Script\Game\PauseManager.cs" />
     <Compile Include="Assets\Script\Knockback.cs" />
     <Compile Include="Assets\Script\MainMenu.cs" />
+    <Compile Include="Assets\Script\ObjectScripts\Arrow.cs" />
     <Compile Include="Assets\Script\ObjectScripts\Heart.cs" />
     <Compile Include="Assets\Script\ObjectScripts\Interactable.cs" />
     <Compile Include="Assets\Script\ObjectScripts\potControls.cs" />
@@ -81,6 +84,7 @@
     <Compile Include="Assets\Script\PlayerScripts\HeartManager.cs" />
     <Compile Include="Assets\Script\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Script\PlayerScripts\playerHits.cs" />
+    <Compile Include="Assets\Script\ScriptableObject\BoolValue.cs" />
     <Compile Include="Assets\Script\ScriptableObject\FloatValue.cs" />
     <Compile Include="Assets\Script\ScriptableObject\Inventory.cs" />
     <Compile Include="Assets\Script\ScriptableObject\Item.cs" />
@@ -106,37 +110,37 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/2d_Proj/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -663,11 +667,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj">
-      <Project>{C3E81AB2-F8C9-3D5B-B7E8-A4E6C0B8F939}</Project>
+      <Project>{AD7B4F14-B5D4-3644-6D60-F0BAE94BCEB3}</Project>
       <Name>Unity.2D.Tilemap.Extras.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj">
-      <Project>{CA48C651-4170-716B-7E06-E0C7F403D46B}</Project>
+      <Project>{DF792A7B-E146-0142-E474-7E3048536FF7}</Project>
       <Name>Unity.2D.Tilemap.Extras</Name>
     </ProjectReference>
   </ItemGroup>

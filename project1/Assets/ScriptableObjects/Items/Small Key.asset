@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 21300000, guid: 572252be1321dec42be96f5b56675756, type: 3}
   itemDescription: Might fit a door, maybe?
-  isKey: 0
+  isKey: 1

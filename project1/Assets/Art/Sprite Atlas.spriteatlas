@@ -43,14 +43,15 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: 70d01e30cf457054e87d0307d05348b6, type: 3}
-    totalSpriteSurfaceArea: 943040
+    totalSpriteSurfaceArea: 943552
     bindAsDefault: 1
     storedHash:
       serializedVersion: 2
-      Hash: 8fce42019bba4140a99ac4f3fe08dc05
+      Hash: 3f6974a17feaf29469842b932fc2408b
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
   - {fileID: 21300000, guid: e8aa08f0b540ec84286f43769a3d8e67, type: 3}
+  - {fileID: 21300000, guid: bf0e6d9406da49e498a5ed2fdcfbf25b, type: 3}
   - {fileID: 136123638574666257, guid: a8420b46f6453844a808e31dbd2bc53f, type: 3}
   - {fileID: 293919518158258091, guid: a8420b46f6453844a808e31dbd2bc53f, type: 3}
   - {fileID: -2417109873707893127, guid: a8420b46f6453844a808e31dbd2bc53f, type: 3}
@@ -1931,9 +1932,11 @@ SpriteAtlas:
   - {fileID: 536419509007563539, guid: bb40906c3f76e974bb024d30d01f6bca, type: 3}
   - {fileID: 1036803682579554421, guid: bb40906c3f76e974bb024d30d01f6bca, type: 3}
   - {fileID: 5559694988392259305, guid: bb40906c3f76e974bb024d30d01f6bca, type: 3}
+  - {fileID: 21300000, guid: bc7e368cfc9d84c42aa0398950655fe8, type: 3}
   - {fileID: 21300000, guid: 572252be1321dec42be96f5b56675756, type: 3}
   m_PackedSpriteNamesToIndex:
   - NPC_test
+  - bow
   - Overworld_827
   - Overworld_837
   - Overworld_847
@@ -3814,6 +3817,7 @@ SpriteAtlas:
   - Inner_38
   - Inner_42
   - Inner_43
+  - arrow
   - key
   m_Tag: Sprite Atlas
   m_IsVariant: 0

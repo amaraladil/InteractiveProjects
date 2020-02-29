@@ -2,8 +2,8 @@
 Project1:
 
 Controls:
-wasd: movement
-p: pause
-space: attack
-m: shoot bow
-e: interact
+wasd: movement <br />
+p: pause <br />
+space: attack <br />
+m: shoot bow <br />
+e: interact <br />

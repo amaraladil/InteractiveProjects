@@ -77,13 +77,13 @@
     <Compile Include="Assets\2d-extras-master\Runtime\Tiles\WeightedRandomTile\WeightedRandomTile.cs" />
     <None Include="Assets\2d-extras-master\Runtime\Brushes\TintedTilemap.shader" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester_4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester_4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester 4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/Troll/Desktop/Uoit/Semester_4/Interactive/InteractiveProjects/project1/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

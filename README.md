@@ -9,11 +9,12 @@ m: shoot bow <br />
 e: interact <br />
 
 <p>
+  Project2: <br/>
   I tried to use blender a bit and fixing this animation of the model and its layout
-  Project2:
-
 Controls:
 Left mouse: move around <br/>
 Right mouse: ineract/attack enemy <br/>
 i: inventory <br />
+<br/>
+While at inventory: left click to equip/use items
 </p>

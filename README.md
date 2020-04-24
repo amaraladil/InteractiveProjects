@@ -10,7 +10,7 @@ e: interact <br />
 
 <p>
   Project2: <br/>
-  I tried to use blender a bit and fixing this animation of the model and its layout
+  I tried to use blender a bit and fixing this animation of the model and its layout <br/>
 Controls:
 Left mouse: move around <br/>
 Right mouse: ineract/attack enemy <br/>
